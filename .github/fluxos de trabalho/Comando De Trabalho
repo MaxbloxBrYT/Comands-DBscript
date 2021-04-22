@@ -1,0 +1,10 @@
+$title[Trabalho]
+$description[<@$authorID> Você Trabalhou E Ganhou Do Seu Salário De $random[valor min;valor max]]
+$footer[Continue Trabalhando]
+$color[$random[0;999999]]
+$addTimestamp
+$authorIcon[$authorAvatar]
+$setUserVar[variable name;$sum[$getUserVar[variable name];random[repete o valor min; repete o valor max]]]
+
+
+Lembre-se Que É Tudo Junto!
